@@ -8,7 +8,8 @@ public class FindMissingNumber {
      * 3) Написать формулу для расчета, и найти недостающие числа в первом и во втором массивах.
      * 4) Сделать расчет ожидаемой сумму арифметической прогрессии.
      * 5) Вернуть недостающее число в массиве.
-     * 6) Добавить JUnit тест для проверки.
+     * 6) Написать основные методы для тестирования
+     * 7) Добавить JUnit тесты для проверки.
      */
 
 
@@ -34,11 +35,11 @@ public class FindMissingNumber {
     }
 
     public static int FindMissingNumber(int num[], int start, int end) {
-        int expectedSum = (end * (end + 1)) / 2 - ((start - 1) * start) / 2;
+        int expectedSum = (end * (end + 1)) / 2 - ((start - 1) * start) / 2; // Расчёт ожидаемой суммы арифметической прогрессии
         int actualSum = 0;
         for (int i : num) {
             actualSum += i;
         }
-        return expectedSum - actualSum;
+        return expectedSum - actualSum; // Возвращение недостающих чисел в первом и во втором массивах
     }
 }
