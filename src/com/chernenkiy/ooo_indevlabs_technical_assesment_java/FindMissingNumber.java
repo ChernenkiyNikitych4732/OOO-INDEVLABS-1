@@ -1,6 +1,6 @@
 package com.chernenkiy.ooo_indevlabs_technical_assesment_java;
 
-public class FindMissingNumber {
+public class FindMissingNumber { // Название класса;
 
     /**
      * Шаги для решения технического задания.
