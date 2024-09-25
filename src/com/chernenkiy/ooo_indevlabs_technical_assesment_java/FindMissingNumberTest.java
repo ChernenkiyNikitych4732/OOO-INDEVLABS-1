@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FindMissingNumberTest {
     @Test
     public void testFindMissingNumber_FirstArray() {
-        int num[] = {5,0,1,2,3};
+        int num[] = {5,0,1,3,2};
         int expected = 4;
         int missingNumber = FindMissingNumber.FindMissingNumber(num, 1, 5);
         assertEquals(4, missingNumber, "Ожидается, что недостающее число в первом массиве будет 4"); // Тест №1 Массив №1 с пропущенным числом 4
