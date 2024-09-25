@@ -28,15 +28,15 @@ public class FindMissingNumber {
 
 
     public static void main(String[] args) {
-        int num[] = {1, 2, 3, 5}; // Числа массива № 1;
-        int num1[] = {7, 9, 10, 11, 12}; // Числа массива № 2;
+        int[] num = {1, 2, 3, 5}; // Числа массива № 1;
+        int[] num1 = {7, 9, 10, 11, 12}; // Числа массива № 2;
         int n1 = FindMissingNumber(num, 1, 5); // Ищем недостающее число в массиве № 1;
         int n2 = FindMissingNumber(num1, 7, 12); // Ищем недостающее число в массиве № 2;
-        System.out.println("Недостающее число в первом массиве:" + n1); // Получаем недостающее число в массиве № 1
-        System.out.println("Недостающее число во втором массиве" + n2); // Получаем недостающее число в массиве № 2;
+        System.out.println("Недостающее число в первом массиве: " + n1); // Получаем недостающее число в массиве № 1
+        System.out.println("Недостающее число во втором массиве " + n2); // Получаем недостающее число в массиве № 2;
     }
 
-    public static int FindMissingNumber(int num[], int start, int end) {
+    public static int FindMissingNumber(int[] num, int start, int end) {
         int expectedSum = (end * (end + 1)) / 2 - ((start - 1) * start) / 2; // Расчёт ожидаемой суммы арифметической прогрессии
         int actualSum = 0;
         for (int i : num) {
