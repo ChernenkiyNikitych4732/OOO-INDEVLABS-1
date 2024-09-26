@@ -1,5 +1,3 @@
-English Translation
-
 Java Technical Assessment. General: Write a function as described below and test scripts to verify that it works.
 
 Details: Write a function that finds a missing number in an array. Given an array of consecutive numbers 0,1,2,3.... N with a missing term. The function finds the first missing number in the sequence. Example: Input data: [5,0,1,3,2], Output: 4. Input: [7, 9,10,11,12], Output: 8
