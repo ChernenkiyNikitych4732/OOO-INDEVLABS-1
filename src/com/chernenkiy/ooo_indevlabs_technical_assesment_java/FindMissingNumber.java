@@ -16,7 +16,7 @@ public class FindMissingNumber { // The name of the class;
     // Write a formula to calculate and find the missing numbers in the first and second arrays, based on the numbers we knew in the example;
     // 5,1,3,2 numbers in the first array;
     // 1+2=3; 3+3=6; 6+4=10; 10+5=15 add up the numbers that were in the first array;
-    // S=5(5+1) / 2 = 5*6 / 2 = 15 Formula for calculating and finding the missing number in the first array;
+    // S=5 (5+1) / 2 = 5*6 / 2 = 15 Formula for calculating and finding the missing number in the first array;
     // 1+2=3; 3+3=6; 6+5=11 Once again add the numbers of the first array;
     // 15-11=4 Found the missing number in the first array;
     // 7,9,10,11,12 numbers in the second array;
