@@ -1,6 +1,6 @@
 package com.chernenkiy.ooo_indevlabs_technical_assesment_java;
 
-public class FindMissingNumber { // The name of the class
+public class FindMissingNumber { // The name of the classl
 
     /**
      * English translation
@@ -24,17 +24,17 @@ public class FindMissingNumber { // The name of the class
     // 7,9,10,11,12 numbers in the second array;
     // 7+9=16, 16+10=26, 26+11=37; 37+12=49 add the numbers of the second array;
     // S=6 (7+12) / 2 = 6 * 19 / 2 = 57 Formula for calculating finding the missing number in the second array;
-    // 7+9=16; 16+10=26; 26+11=37; 37+12=49 Once again add the numbers of the second array.
+    // 7+9=16; 16+10=26; 26+11=37; 37+12=49 Once again add the numbers of the second array;
     // 57-49=8 Found the missing number in the second array;
 
 
     public static void main(String[] args) {
-        int[] num = {5,0,1,3,2}; // Числа массива № 1;
-        int[] num1 = {7,9,10,11,12}; // Числа массива № 2;
+        int[] num = {5,0,1,3,2}; // Numbers of array No. 1;
+        int[] num1 = {7,9,10,11,12}; // Numbers of array No. 2;
         int n1 = FindMissingNumber(num, 1, 5); // Looking forward to find the missing numbers of array № 1;
         int n2 = FindMissingNumber(num1, 7, 12); // Looking forward to find the missing numbers of array № 2
-        System.out.println("Недостающее число в первом массиве: " + n1); // Get the missing number of array  № 1;
-        System.out.println("Недостающее число во втором массиве " + n2); //  Get the missing number of array  № 2;
+        System.out.println("Missing number in the first array: " + n1); // Get the missing number of array  № 1;
+        System.out.println("Missing number in the second array: " + n2); //  Get the missing number of array  № 2;
     }
 
     public static int FindMissingNumber(int[] num, int start, int end) {
