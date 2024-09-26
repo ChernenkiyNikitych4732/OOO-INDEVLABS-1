@@ -12,7 +12,7 @@ public class FindMissingNumber { // The name of the class;
      * 6) Write basic methods for testing
      * 7) Add JUnit tests for testing.
      */
-    
+
     // Write a formula to calculate and find the missing numbers in the first and second arrays, based on the numbers we knew in the example;
     // 5,1,3,2 numbers in the first array;
     // 1+2=3; 3+3=6; 6+4=10; 10+5=15 add up the numbers that were in the first array;
