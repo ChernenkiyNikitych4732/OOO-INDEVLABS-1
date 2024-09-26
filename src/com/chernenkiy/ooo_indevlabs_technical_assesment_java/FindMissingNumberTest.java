@@ -1,7 +1,7 @@
 package com.chernenkiy.ooo_indevlabs_technical_assesment_java;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test; // connect the junit-jupiter-api unit for creating Junit tests on Junit 5 (Jupiter)
+import static org.junit.jupiter.api.Assertions.*; // importing the annotation command from JUnit 5 (Jupiter) library
 
 public class FindMissingNumberTest { // The name of the JUnit test class;
     @Test
