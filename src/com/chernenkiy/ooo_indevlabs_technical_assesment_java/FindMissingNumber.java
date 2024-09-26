@@ -3,7 +3,6 @@ package com.chernenkiy.ooo_indevlabs_technical_assesment_java;
 public class FindMissingNumber { // The name of the class;
 
     /**
-     * English translation
      * Steps to solve the technical assessment java.
      * 1) Calculate the array using the formula m(m+i) / 2, and find the missing number in the array. Example: Input [5, 0, 1, 1, 3, 2], Output: 4
      * 2) Calculate the array using the formula m(m+i) / 2, and find the missing number in the array. Example: Input [7, 9, 10, 11, 12], Output: 8
